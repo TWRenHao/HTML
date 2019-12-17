@@ -86,4 +86,13 @@ table
 			margin-bottom: 10px;
 			cursor:pointer;
 		}
-		
+		input.pw
+		{
+			height: 30px;
+			width: 300px;
+			display: block;
+			margin-top: 16px;
+			margin-left: 16px;
+			margin-bottom: 5px;
+			padding: 5px;
+		}
