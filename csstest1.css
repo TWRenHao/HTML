@@ -5,11 +5,12 @@ body
 	background-attachment:fixed;
 	background-size:cover;
 }
-img.noraml
+#parent
 {
-	position: absolute;
-	right:500px;
-	top:40px;
+	height: 150px;
+	line-height: 150px;
+	font-size: 0;
+    vertical-align: middle;
 }
 table
 {
