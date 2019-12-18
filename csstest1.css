@@ -5,11 +5,11 @@ body
 	background-attachment:fixed;
 	background-size:cover;
 }
-img.noraml
+img.wrapper
 {
-	position: absolute;
-    right:500px;
-	top:40px;
+	display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
 }
 table
 {
@@ -22,35 +22,35 @@ table
 	padding-bottom: 30px;
 	padding-top: 15px;
 }
-        td.signin
-		{
-			color:grey;
-			font-size:20px;
-			padding-left:150px;
- 		}
-        td.signup
-		{
-			padding-left:16px; 
-		}
-        td.c
-		{
-			color: grey;
-			font-size: 15px;
-			padding-left: 16px;
-			padding-top: 30px;
-		}
-		a.a
-		{
-			text-decoration:none;
-			color:#84C1FF;
-		}
-		a.b
-		{
-			color: #84C1FF;
-			font-size: 12px;
-			margin-left: 150px;
-			cursor:pointer;
-		}
+ td.signin
+{
+	color:grey;
+	font-size:20px;
+	padding-left:150px;
+ }
+td.signup
+{
+	padding-left:16px; 
+}
+td.c
+{
+	color: grey;
+	font-size: 15px;
+	padding-left: 16px;
+	padding-top: 30px;
+}
+a.a
+{
+	text-decoration:none;
+	color:#84C1FF;
+}
+a.b
+{
+	color: #84C1FF;
+	font-size: 12px;
+	margin-left: 150px;
+	cursor:pointer;
+}
 		a.c
 		{
 			color:#84C1FF;
@@ -86,13 +86,13 @@ table
 			margin-bottom: 10px;
 			cursor:pointer;
 		}
-		input.pw
-		{
-			height: 30px;
-			width: 300px;
-			display: block;
-			margin-top: 16px;
-			margin-left: 16px;
-			margin-bottom: 5px;
-			padding: 5px;
-		}
+input.pw
+{
+	height: 30px;
+	width: 300px;
+	display: block;
+	margin-top: 16px;
+	margin-left: 16px;
+	margin-bottom: 5px;
+	padding: 5px;
+}
