@@ -13,79 +13,79 @@ img.wrapper
 }
 table
 {
-	position: absolute;
-	right:560px;
 	top:200px;
 	background-color: white;
 	padding-right: 20px;
 	padding-left: 20px;
 	padding-bottom: 30px;
 	padding-top: 15px;
+	margin: 0 auto; 
+    position: middle;
 }
  td.signin
 {
 	color:grey;
 	font-size:20px;
 	padding-left:150px;
- }
+}
 td.signup
 {
 	padding-left:16px; 
 }
-td.c
+td.ot
 {
 	color: grey;
 	font-size: 15px;
 	padding-left: 16px;
 	padding-top: 30px;
 }
-a.a
+a.signup
 {
 	text-decoration:none;
 	color:#84C1FF;
 }
-a.b
+a.fg
 {
 	color: #84C1FF;
 	font-size: 12px;
 	margin-left: 150px;
 	cursor:pointer;
 }
-		a.c
-		{
-			color:#84C1FF;
-			font-size: 12px;
-			margin-left: 80px;
-			cursor:pointer;
-		}
-		input.signin
-		{
-			padding-right: 144px;
-			padding-left: 144px;
-			padding-top: 10px;
-			padding-bottom: 10px;
-			background-color: red;
-			color: white;
-			margin-left: 16px;
-			border: 0;
-			font-size: 15px;
-			cursor:pointer;
-		}
-		input.pn
-		{
-			height: 30px;
-			width: 300px;
-			display: block;
-			margin: 16px;
-			padding: 5px;
-		}
-		input.next
-		{
-			padding-left: 12px;
-			margin-left: 16px;
-			margin-bottom: 10px;
-			cursor:pointer;
-		}
+a.ot
+{
+	color:#84C1FF;
+	font-size: 12px;
+	margin-left: 80px;
+	cursor:pointer;
+}
+input.signin
+{
+	padding-right: 144px;
+	padding-left: 144px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: red;
+	color: white;
+	margin-left: 16px;
+	border: 0;
+	font-size: 15px;
+	cursor:pointer;
+}
+input.pn
+{
+	height: 30px;
+	width: 300px;
+	display: block;
+	margin: 16px;
+	padding: 5px;
+}
+input.next
+{
+	padding-left: 12px;
+	margin-left: 16px;
+	margin-bottom: 10px;
+	cursor:pointer;
+}
 input.pw
 {
 	height: 30px;
